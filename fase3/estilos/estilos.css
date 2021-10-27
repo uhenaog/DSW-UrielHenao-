@@ -1,0 +1,112 @@
+*{
+   margin: 0;
+   padding: 0; 
+}
+#contenedor{
+    width: 1200px;
+    height: 1000px;
+    background:#EDEAEA;
+    margin:  0.5em auto ;
+    border-radius: 5mm;
+}
+#header{
+    width: 1100px;
+    height: 10%;
+    background: #EDEAEA;
+    margin-left: 3em;
+    border-radius: 5mm;
+    display:inline-table;
+}
+#nav{
+    width: 1100px;
+    border-radius: 5mm;
+    height: 5%;
+    background:#EDEAEA;
+    margin: 00.5em auto;    
+} 
+ul{
+    list-style: none;
+  }
+  #menu li>a{
+    background-color: grey;
+    color: white;
+    padding: 16px;
+    display: block;
+    text-decoration: none;
+    min-width: 180px;
+    border-radius: 5mm;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  #menu li>a:hover{
+    color: #000;
+    background-color: #eaeaea;
+  }
+  #menu>li{
+    float:left;
+    text-align:center
+  }
+  #menu>li>ul{
+    display: none;
+  }
+  #menu>li:hover>ul {
+    display:block;
+  } 
+#contenido{
+    width: 1100px;
+    height: 65%;
+    background:#EDEAEA;
+    margin: 00.5em auto;
+}
+#section{
+    width: 25%;
+    height: 90%;
+    border-radius: 5mm;
+    background:#DCD9D9;
+    float: left;
+    margin-right: 0.5em;
+      
+}
+#aside{
+    width: 68%;
+    height: 90%;
+    background:#EDEAEA; 
+    float: right;
+    
+    margin-left: 00.5em;
+    border-radius: 5mm;
+}
+#derecho{
+    width: 45%;
+    height: 90%;
+    background: rgb(214, 208, 236); 
+    float: right;
+    margin: 1em;
+    border-radius: 5mm;
+    
+}
+#izquierdo{
+    width: 45%;
+    height: 90%;
+    background: #6d0707;
+    float: left;
+    margin: 1em;
+    border-radius: 5mm;
+}
+#footer{
+    width: 1100px;
+    height: 15%;
+    background: rgb(27, 24, 24);
+    margin: 00.5em auto;
+    border-radius: 5mm;
+}
+h1{
+  font-style: italic;  
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 50px;
+    
+}
+
+
